@@ -1,6 +1,6 @@
 # ys-back
 
-これは夢色水車(https://ys.7oh.dev/)のバックエンドです。
+これは[夢色水車](https://ys.7oh.dev/)のバックエンドです。
 Twitter API v2 を利用して要望ツイートをデータベースに収集します。
 
 ## 特徴
@@ -10,10 +10,10 @@ Twitter API v2 を利用して要望ツイートをデータベースに収集�
 
 ## 環境変数の設定
 
-起動には動作環境に合わせたデータベース接続情報やBearer Tokenなど環境変数が必要です。
+起動には動作環境に合わせたデータベース接続情報や Bearer Token など環境変数が必要です。
 .devcontainer/.env.example を参考にして.devcontainer/.env ファイルを作成してください。
 
-- 開発時はPostgreSQLへの接続情報はデフォルトのままで動作します。本番環境の場合は適宜書き換えてください
+- 開発時は PostgreSQL への接続情報はデフォルトのままで動作します。本番環境の場合は適宜書き換えてください
 - TWITTER_BEARER(Twitter API v2 の Bearer Token) は[Twitter の開発者向けページ](https://developer.twitter.com/en/apps)で作成できます。
 
 ## コンテナの起動
