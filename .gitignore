@@ -1,0 +1,9 @@
+
+.devcontainer/.env
+
+dist
+tmp
+mocks
+
+*.log
+*.txt
