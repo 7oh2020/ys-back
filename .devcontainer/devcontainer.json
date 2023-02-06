@@ -1,0 +1,18 @@
+{
+	"name": "ys-back",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"settings": {
+		// 保存時に不要な空白と空行を削除する
+		"files.trimTrailingWhitespace": true,
+		"files.insertFinalNewline": true,
+		"files.trimFinalNewlines": true,
+		"[markdown]": {
+			// マークダウンの場合は不要な空白と空行の削除を行わない
+			"files.trimTrailingWhitespace": false,
+			"files.insertFinalNewline": false,
+			"files.trimFinalNewlines": false
+		}
+	}
+}
