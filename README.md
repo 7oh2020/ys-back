@@ -2,6 +2,7 @@
 
 これは[夢色水車](https://ys.7oh.dev/)のバックエンドです。
 Twitter API v2 を利用して要望ツイートをデータベースに収集します。
+フロントエンドの[ys-front](https://github.com/7oh2020/ys-front)と連携してStatic Generationを実現できます。
 
 ## 特徴
 
